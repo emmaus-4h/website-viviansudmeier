@@ -3,9 +3,9 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(255, 255, 255);  
     
-    color: #303030;
+    color: #414141;
     font: Verdana, Arial, Sans-Serif;
 }
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: rgb(187, 234, 240);
     text-align: center;
 }
 
@@ -36,17 +36,19 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+
+h2 {
+  color: rgb(187, 234, 240)
 }
+  
+
 
 .smalltext {
     font-size: 0.7em;
 }
 
 a {
-    color: skyblue;
+    color: rgb(187, 234, 240);
     text-decoration: none;
 }
 
@@ -56,11 +58,15 @@ a:hover {
 
 
 /* navigatiebalk */
+.introduction {
+  color: rgb(187, 234, 240)
+}
+
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: rgb(175, 175, 175);
     overflow: hidden;
 }
 
@@ -77,13 +83,42 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #ffffff;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(187, 234, 240);
 }
 
 
 
 
+.alles {
+  width:700px;
+  margin-right:10px;
+  margin-left:30px;
+}
+
+.bed {
+  width:230px
+}
+
+ .ruitjes {
+   width:162px
+  
+ }
+ 
+ .midden {
+   margin-right: 50px;
+   margin-left: 60px;
+ }
+
+ .tennis {
+width:260px
+ }
+ .restaurant {
+width:245px
+ }
+ .metro {
+width:180px
+ }
